@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -27,6 +31,11 @@ html, body {
   font-size: 1.1em !important
 }
 
+video {
+  width: 100%;
+}
+
+/* サービス */
 .circle {
   position: relative;
   display:inline-block;
@@ -70,6 +79,14 @@ html, body {
 h2 a img {
   position: relative;
   bottom: 7px;
+}
+
+h3 {
+  color: #09367e;
+}
+
+h5 {
+  color: #228acb;
 }
 
 /* 提出ボタン */
