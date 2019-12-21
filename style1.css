@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-* {
-  box-sizing: border-box;
-}
 
 html, body {
   height: 100%;
@@ -142,6 +139,11 @@ h5 {
   padding-top: 70px;
 }
 
+#service1, #service2, #service3, #service4 {
+  margin-top: -100px;
+  padding-top: 100px;
+}
+
 .ul {
   display: flex;
   flex-wrap: wrap;
@@ -242,14 +244,25 @@ hr.light-100 {
 }
 
 /*---Media Queries --*/
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
+  h5 {
+    font-size: 18px;
+  }
+  .font {
+    text-align: left;
+  }
+  .sp_br {
+    display: block;
+  }
 }
 
-@media (max-width: 992px) {
-
-}
 @media (max-width: 768px) {
-
+  /* .container {
+    margin: 0;
+  } */
+  #faq-list {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   
