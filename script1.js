@@ -2,7 +2,6 @@ $(function(){
     $(window).scroll(function() {
         if ($(this).scrollTop() > 0) {
             $('nav').css('background-color', '#f8f9fa');
-            // $('nav').animate('background-color', '#6c757d');
         } else {
             $('nav').css('background', 'none');
         }
